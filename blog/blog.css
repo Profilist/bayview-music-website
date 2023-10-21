@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+.grid-container{
+    display: grid;
+    grid-template-rows:    repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+.rectangles{
+    border: 1px solid;
+    width:550px;
+    height:300px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title-heading{
+    padding-left:20px;
+}
