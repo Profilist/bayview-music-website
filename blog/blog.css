@@ -17,4 +17,15 @@
 
 .title-heading{
     padding-left:20px;
+    margin-bottom: -10px;
+    width: 50%;
+}
+
+.author{
+    padding-left: 20px;
+    font-style: italic;
+}
+
+.blog-content{
+    padding-left: 20px;
 }
