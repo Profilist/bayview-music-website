@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 50px;
+    justify-content: center;
+}
+
+.rectangles {
+    border: 1px solid;
+    width:550px;
+    height:300px;
+}
+
+.title-heading {
+    padding-left:300px;
+    padding-right: 20px;
+    margin-bottom: -10px;
+    width: 40%;
+    font-family: 'Quicksand:wght@700', sans-serif;
+}
+
+.coursecode {
+    padding-left: 300px;
+    font-style: italic;
+    font-family: 'Quicksand:wght@400', sans-serif;
+    color:darkred
+}
+
+.coursecontent {
+    padding-left: 300px;
+    padding-right: 20px;
+    width: 40%;
+    font-family: 'Quicksand:wght@400', sans-serif;
+}
+
+.header-logo {
+    float: left;
+    height: 180px;
+    width: 180px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header-text {
+    font-family: 'Quicksand:wght@700', sans-serif;
+    font-size: 60px;
+    padding-top: 50px;
+    font-stretch: expanded;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    font-family: 'Quicksand:wght@700', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.navbar ul ul li {
+    display: block;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+
+.navbar ul ul li a:hover {
+    background-color: #555;
+}
+
+
+@media screen and (max-width:1200px) {
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        justify-content: center;
+    }
+    
+    .title-heading {
+        padding-left:300px;
+        padding-right: 20px;
+        margin-bottom: -10px;
+        width: 40%;
+        font-family: 'Quicksand:wght@700', sans-serif;
+    }
+    
+    .coursecode {
+        padding-left: 300px;
+        font-style: italic;
+        font-family: 'Quicksand:wght@400', sans-serif;
+        color:darkred
+    }
+    
+    .coursecontent {
+        padding-left: 300px;
+        padding-right: 20px;
+        width: 40%;
+        font-family: 'Quicksand:wght@400', sans-serif;
+    }
+    
+    .header-logo {
+        float: left;
+        height: 180px;
+        width: 180px;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    .header-text {
+        font-family: 'Quicksand:wght@700', sans-serif;
+        font-size: 60px;
+        padding-top: 50px;
+        font-stretch: expanded;
+    }
+    
+    .navbar {
+        width: 100%;
+        text-align: center;
+        font-family: 'Quicksand:wght@700', sans-serif;
+    }
+    
+    .navbar {
+        position: relative;
+        z-index: 999;
+    }
+    
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar li {
+        display: inline-block;
+    }
+    
+    .navbar li a {
+        color: black;
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    
+    .navbar ul ul {
+        position: absolute;
+        top: 100%;
+        display: none;
+    }
+    
+    .navbar ul ul li {
+        display: block;
+    }
+    
+    .navbar li:hover ul {
+        display: block;
+    }
+    
+    .navbar ul ul li a:hover {
+        background-color: #555;
+    }
+    
+}
+
